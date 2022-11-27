@@ -7,14 +7,14 @@ public class EmptyCashReceipt {
         System.out.println("\n\nCash receipt \n --- --- ---");
     }
 
-    static void receiptCharged (String str1){
-        System.out.println("Charged to: " + str1);
+    static void receiptCharged (String productName1){
+        System.out.println("Charged to: " + productName1);
     }
     static void receiptBody (Double money1){
         System.out.println("To be paid: " + money1);
     }
-    static void receiptReceived (String str2) {
-        System.out.println("Received by: " + str2);
+    static void receiptReceived (String yourName2) {
+        System.out.println("Received by: " + yourName2);
     }
 
     static void productName(){
@@ -31,15 +31,15 @@ public class EmptyCashReceipt {
         Scanner scanner = new Scanner(System.in);
 
         productName();
-        String str1 = scanner.nextLine();
+        String productName1 = scanner.nextLine();
         yourName ();
-        String str2 = scanner.nextLine();
+        String yourName2 = scanner.nextLine();
         money ();
         Double money1 = scanner.nextDouble();
 
         receiptHeader ();
-        receiptCharged(str1);
-        receiptReceived(str2);
+        receiptCharged(productName1);
+        receiptReceived(yourName2);
         receiptBody(money1);
     }
 }
