@@ -1,6 +1,6 @@
 package W3;
 
-public class methodOverloading {
+public class methodsMethodOverloading {
     static int mySixMethod(int x, int y) {
         return x + y;
     }

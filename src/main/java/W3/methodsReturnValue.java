@@ -1,6 +1,6 @@
 package W3;
 
-public class returnValue {
+public class methodsReturnValue {
     static int myFourMethod(int x) {
         return 3 + x;
     }

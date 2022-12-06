@@ -1,6 +1,6 @@
 package W3;
 
-public class recursion {
+public class methodsRecursion {
     public static void main(String[] args) {
         int result = sum(11);
         System.out.println(result);

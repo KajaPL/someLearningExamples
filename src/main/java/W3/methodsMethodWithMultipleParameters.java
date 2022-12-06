@@ -1,6 +1,6 @@
 package W3;
 
-public class methodWithMultipleParameters {
+public class methodsMethodWithMultipleParameters {
     static void myThirdMethod(String names, int age){
         System.out.println(names + " is " + age + " years old!");
     }

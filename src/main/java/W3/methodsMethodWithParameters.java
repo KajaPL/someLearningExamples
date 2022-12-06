@@ -1,6 +1,6 @@
 package W3;
 
-public class methodWithParameters {
+public class methodsMethodWithParameters {
     static void mySecondMethod(String names) {
         System.out.println(names + " is in my squad!");
     }

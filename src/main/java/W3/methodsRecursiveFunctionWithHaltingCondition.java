@@ -1,6 +1,6 @@
 package W3;
 
-public class recursiveFunctionWithHaltingCondition {
+public class methodsRecursiveFunctionWithHaltingCondition {
     public static void main(String[] args) {
         int result = sum(5, 10);
         System.out.println(result);

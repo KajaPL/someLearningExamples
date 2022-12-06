@@ -1,6 +1,6 @@
 package W3;
 
-public class createAndCallMethod {
+public class methodsCreateAndCallMethod {
     static void myFirstMethod(){
         System.out.println("It's me!");
     }

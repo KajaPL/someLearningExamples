@@ -2,7 +2,7 @@ package W3;
 
 import java.util.Scanner;
 
-public class methodWithIfElse {
+public class methodsMethodWithIfElse {
     static void checkAge() {
         Scanner scanner = new Scanner(System.in);
         int ageConsole = Integer.parseInt(scanner.nextLine());
