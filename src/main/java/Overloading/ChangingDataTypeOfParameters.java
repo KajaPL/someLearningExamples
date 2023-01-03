@@ -1,4 +1,4 @@
-package MethodOverloading;
+package Overloading;
 
 public class ChangingDataTypeOfParameters {
     public String formatNumber(int value) {

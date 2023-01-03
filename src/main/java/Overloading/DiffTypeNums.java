@@ -1,4 +1,4 @@
-package MethodOverloading;
+package Overloading;
 
 public class DiffTypeNums {
     static int plusMethodInt (int x, int y) {
