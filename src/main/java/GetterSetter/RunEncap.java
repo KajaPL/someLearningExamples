@@ -1,4 +1,6 @@
-package Encapsulation;
+package GetterSetter;
+
+import GetterSetter.EncapTest;
 
 public class RunEncap {
     public static void main(String[] args) {

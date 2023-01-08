@@ -1,4 +1,4 @@
-package Encapsulation;
+package GetterSetter;
 
 public class EncapTest {
     private String name;
