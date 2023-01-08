@@ -1,6 +1,6 @@
 package GetterSetter;
 
-public class GettetSetterExample {
+public class GetterSetterExample1 {
     private int salary;
     //a setter method that assign a value to the salary variable
     void setSalary(int s)
@@ -21,7 +21,7 @@ public class GettetSetterExample {
     }
 
     public static void main(String[] args) {
-        GettetSetterExample obj = new GettetSetterExample();
+        GetterSetterExample1 obj = new GetterSetterExample1();
         obj.setSalary(-50000);
         int salary = obj.getSalary();
         obj.storeSalaryDB(salary);
