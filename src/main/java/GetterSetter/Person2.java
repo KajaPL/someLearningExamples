@@ -13,7 +13,7 @@ public class Person2 {
         return age;
     }
 
-   public String getFavColor() {
+    public String getFavColor() {
         return favColor;
     }
 
@@ -24,6 +24,7 @@ public class Person2 {
     public void setAge(int age) {
         this.age = age;
     }
+
     public void setFavColor(String favColor) {
         this.favColor = favColor;
     }

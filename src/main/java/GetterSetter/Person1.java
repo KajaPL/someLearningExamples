@@ -4,19 +4,19 @@ public class Person1 {
     private String name;
     private int age;
 
-    public void setName(String n){
+    public void setName(String n) {
         name = n;
     }
 
-    public void setAge(int a){
+    public void setAge(int a) {
         age = a;
     }
 
-    public String getName(){
+    public String getName() {
         return name;
     }
 
-    public int getAge(){
+    public int getAge() {
         return age;
     }
 }
