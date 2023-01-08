@@ -1,15 +1,14 @@
 package GetterSetter;
 
-public class Account1 {
-    String name;
-    int age;
+
+class Account1 {
+    private String name;
+    private int age;
 
     public static void main(String[] args) {
         Account1 a = new Account1();
         a.setName("Pablo");
         a.setAge(34);
-        System.out.println(a.getName());
-        System.out.println(a.getAge());
         a.printDetails();
     }
 
